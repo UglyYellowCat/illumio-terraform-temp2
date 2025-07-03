@@ -22,7 +22,7 @@ provider "azurerm" {
 
 resource "azurerm_resource_group" "rg" {
   name     = "testdrive"
-  location = "West US"
+  location = "East US"
 
   tags = {
     environment = "Production"
